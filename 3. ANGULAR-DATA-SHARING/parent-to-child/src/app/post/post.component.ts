@@ -9,6 +9,8 @@ export class PostComponent implements OnInit {
 
   @Input() fromParent:string | undefined;
 
+  fromParentPostMsg= "I am your parent Post";
+
   constructor() { }
 
   ngOnInit(): void {
